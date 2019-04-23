@@ -46,6 +46,8 @@ var params = {
 // Seasons
 const seasons = new FacebookSource('fallen_leaf', 'Seasons', "222194971977", params);
 
+// Vian
+const vian = new FacebookSource('vian', 'Café Vian', "332656680123482", params);
 
 const services = [seasons];
 console.log('Starting LunchBot with ' + services.length + ' services');
