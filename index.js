@@ -49,7 +49,11 @@ const menza = new FacebookSource('menza', 'Menza', "222194971977", params);
 // Vian
 const vian = new FacebookSource('vian', 'Café Vian', "332656680123482", params);
 
-const services = [menza, vian];
+// 2 szerecsen
+
+const ketszer = new FacebookSource('two', 'Két Szerecsen', "142749389074745", params);
+
+const services = [menza, vian, ketszer];
 console.log('Starting LunchBot with ' + services.length + ' services');
 
 bot.services = services;
